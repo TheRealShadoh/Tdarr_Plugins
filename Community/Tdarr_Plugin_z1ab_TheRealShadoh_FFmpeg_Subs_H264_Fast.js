@@ -141,7 +141,6 @@ function plugin(file) {
 
       response.infoLog += "☒File has subs \n"
       response.preset = ', -map 0:v -map 0:s? -map 0:a -c:v copy -c:a copy -c:s mov_text'
-      response.reQueueAfter = true;
       response.processFile = true;
       response.FFmpegMode = true
       return response
